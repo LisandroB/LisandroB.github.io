@@ -15,11 +15,11 @@
 
 .sidenav p {
   margin: 0px;
+  margin-bottom: 20px;
 }
 
 .sidenav h3 {
-  margin-top: 0px;
-  margin-bottom: 10px;
+  margin: 0px;
 }
 
 .sidenav img {
@@ -30,19 +30,24 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-left: 63px;
+  margin-left: 59px;
   border: 5px solid white;
   border-radius: 50%;
 }
 
 .sidenav a {
-  padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
   color: #818181;
   display: block;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .sidenav a:hover {
