@@ -57,9 +57,8 @@
 .sidenav .closebtn {
   position: absolute;
   top: 0;
-  right: 25px;
   font-size: 36px;
-  margin-left: 50px;
+  margin-left: 9px;
 }
 
 #main {
@@ -78,12 +77,15 @@
   color: #818181;
 }
 
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 990px) {
   .sidenav {
     padding-top: 15px;
   }
   .sidenav a {
     font-size: 18px;
+  }
+  .nav-img img {
+    width: 50%;
   }
 }
 
