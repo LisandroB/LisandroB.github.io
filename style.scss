@@ -57,9 +57,14 @@ $font-family: 'Noto Sans JP', sans-serif;
     color: #818181;
 }
 
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 990px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+    .nav-img{
+        img{
+            width: 50%;
+        }
+    }
   }  
 
 .nav-img {
