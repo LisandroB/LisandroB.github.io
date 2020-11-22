@@ -38,7 +38,7 @@
 
 .sidenav a {
   text-decoration: none;
-  font-size: 25px;
+  font-size: 21px;
   color: #818181;
   display: block;
   -webkit-transition: 0.3s;
@@ -78,17 +78,17 @@
   color: #818181;
 }
 
-@media screen and (max-height: 990px) {
-  .sidenav {
-    padding-top: 15px;
-  }
+.nav-img img {
+  width: 2%;
+}
+
+@media all and (max-width: 990px) {
   .sidenav a {
     font-size: 18px;
   }
-}
-
-.nav-img img {
-  width: 2%;
+  .nav-img img {
+    width: 11%;
+  }
 }
 
 #pesado {

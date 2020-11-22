@@ -31,7 +31,7 @@ $font-family: 'Noto Sans JP', sans-serif;
     }
     & a {
         text-decoration: none;
-        font-size: 25px;
+        font-size: 21px;
         color: #818181;
         display: block;
         transition: 0.3s;
@@ -57,21 +57,25 @@ $font-family: 'Noto Sans JP', sans-serif;
     justify-content: center;
     color: #818181;
 }
-
-@media screen and (max-height: 990px) {
-    .sidenav {
-        padding-top: 15px;
-        & a {
-            font-size: 18px;
-        }
-    }
-}
-
 .nav-img {
     img {
         width: 2%;
     }
 }
+
+@media all and (max-width: 990px) {
+    .sidenav {
+        & a {
+            font-size: 18px;
+        }
+    }
+    .nav-img {
+        img {
+            width: 11%;
+        }
+    }
+}
+
 
 #pesado {
     transition: all 0.9s ease .45s;
