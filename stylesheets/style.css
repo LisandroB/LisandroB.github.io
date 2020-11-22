@@ -19,7 +19,8 @@
 }
 
 .sidenav h3 {
-  margin: 0px;
+  margin-top: 8px;
+  margin-bottom: 0px;
 }
 
 .sidenav img {
@@ -30,8 +31,8 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-left: 59px;
-  border: 5px solid white;
+  margin-left: 61px;
+  border: 3px solid white;
   border-radius: 50%;
 }
 
@@ -84,23 +85,14 @@
   .sidenav a {
     font-size: 18px;
   }
-  .nav-img img {
-    width: 50%;
-  }
-}
-
-.nav-img {
-  width: auto;
 }
 
 .nav-img img {
   width: 2%;
 }
 
-.social-media {
-  margin-left: 0px;
-  margin-top: 14px;
-  border: none;
-  width: 15%;
+#pesado {
+  -webkit-transition: all 0.9s ease .45s;
+  transition: all 0.9s ease .45s;
 }
 /*# sourceMappingURL=style.css.map */
