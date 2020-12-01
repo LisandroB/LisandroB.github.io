@@ -1,5 +1,5 @@
 $font-family: 'Noto Sans JP', sans-serif;
-
+$fontfamily: 'Raleway', sans-serif;
 .sidenav {
     height: 100%; 
     width: 0; 
@@ -12,11 +12,6 @@ $font-family: 'Noto Sans JP', sans-serif;
     padding-top: 60px; 
     transition: 0.5s; 
     font-family: $font-family;
-
-    p {
-        margin: 0px;
-        margin-bottom: 20px;
-    }
     h3 {
         margin-top: 8px;
         margin-bottom: 0px;
@@ -48,16 +43,73 @@ $font-family: 'Noto Sans JP', sans-serif;
         margin-left: 9px;
       }
 }
+
+.all {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 110px;
+}
+
+.curriculum {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: $fontfamily;
+    text-transform: uppercase;
+}
+
 #main {
     transition: margin-left .5s;
     padding: 20px;
+    margin: 0px;
         img {
             width: 15%;
         }
     margin-left: 0px;
-    width: 47%;
     border: black 1px solid;
-    border-radius: 14px;
+    background-color: black;
+    width: 15em;
+    height: 38em;
+    ul {
+        padding: 0px;
+        color: white;
+        font-family: $fontfamily;
+        li {
+            display: flex;
+            justify-content: center;
+        }
+    }
+    hr {
+        margin: 39px;
+    }
+    h3 {
+        justify-content: center;
+        color: white;
+        display: flex;
+        font-size: 13px;
+        margin: 6px;
+        font-family: $fontfamily;
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+#main2 {
+    transition: margin-left .5s;
+    padding: 20px;
+    margin-left: 0px;
+    border: black 1px solid;
+    background-color: black;
+    width: 15em;
+    height: 1em;
+    p {
+        color: white;
+        margin: 0px;
+        text-transform: uppercase;
+        font-family: $fontfamily;
+    }
 }
 .name {
     display: flex;
