@@ -61,9 +61,27 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding-top: 110px;
+}
+
+.articles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.articles .article {
+  width: 50%;
+  margin-top: 13%;
+}
+
+.articles .article img {
+  width: 60%;
 }
 
 .curriculum {
@@ -157,6 +175,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   color: #818181;
+  margin-top: 0px;
 }
 
 .nav-img img {
