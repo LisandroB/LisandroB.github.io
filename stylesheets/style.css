@@ -64,7 +64,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-top: 110px;
+  padding-top: 50px;
 }
 
 .articles {
@@ -73,15 +73,20 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 111%;
+  margin-left: -7px;
 }
 
 .articles .article {
-  width: 50%;
+  width: 93px;
+  height: 100px;
   margin-top: 13%;
 }
 
 .articles .article img {
-  width: 60%;
+  width: 93%;
 }
 
 .curriculum {
