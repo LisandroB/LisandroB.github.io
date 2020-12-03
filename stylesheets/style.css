@@ -206,4 +206,69 @@
   -webkit-transition: all 0.9s ease .45s;
   transition: all 0.9s ease .45s;
 }
+
+#main3 {
+  -webkit-transition: margin-left .5s;
+  transition: margin-left .5s;
+  padding: 20px;
+  margin-left: 0px;
+  border: black 1px solid;
+  background-color: black;
+  width: 27em;
+  height: 1em;
+}
+
+#main3 p {
+  color: white;
+  margin: 0px;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+}
+
+#main3 h3 {
+  font-family: "Noto Sans JP", sans-serif;
+  margin-top: 21px;
+}
+
+#main3 h4 {
+  margin-top: -8px;
+  margin-bottom: 10px;
+  font-family: "Raleway", sans-serif;
+}
+
+#main3 h5 {
+  font-family: "Raleway", sans-serif;
+  margin: 0px;
+}
+
+#main3 h5 a {
+  text-decoration: none;
+}
+
+#main3 ul {
+  font-family: "Raleway", sans-serif;
+}
+
+#main4 {
+  margin-top: 10px;
+  -webkit-transition: margin-left .5s;
+  transition: margin-left .5s;
+  padding: 20px;
+  margin-left: 0px;
+  border: black 1px solid;
+  background-color: black;
+  width: 25em;
+  height: 1em;
+}
+
+#main4 p {
+  color: white;
+  margin: 0px;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+}
+
+#main4 h5 a {
+  text-decoration: none;
+}
 /*# sourceMappingURL=style.css.map */
