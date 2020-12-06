@@ -46,7 +46,7 @@ $fontfamily: 'Raleway', sans-serif;
 .all {
     display: flex;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 0px;
 }
 .articles{
     display: flex;
@@ -234,7 +234,4 @@ $fontfamily: 'Raleway', sans-serif;
     background-color: black;
     width: 20em;
     height: 1em;
-}
-.all {
-    
 }
