@@ -89,6 +89,10 @@ $fontfamily: 'Raleway', sans-serif;
     transition: margin-left .5s;
     padding: 20px;
     margin: 0px;
+    .name {
+        font-family: $fontfamily;
+        font-size: 15px;
+    }
         img {
             width: 15%;
         }

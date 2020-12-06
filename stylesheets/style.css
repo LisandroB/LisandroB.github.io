@@ -140,6 +140,11 @@
   height: 48em;
 }
 
+#main .name {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+}
+
 #main img {
   width: 15%;
 }
